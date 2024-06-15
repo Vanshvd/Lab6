@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Task 1 : Working with variables
+
+        //Declare a variable named myNumber and assign it the value of 10 
+        let myNumber= 10;
+
+        //Declare another variable named myString and assign it the value of "Hello, JavaScript!"
+        let myString= "Hello, JavaScript!";
+
+        // Print both variables to the console using console.log()
+        console.log("myNumber:", myNumber);
+        console.log("myString:", myString);
+
+     //Task 2: Exploring Loops
+    
+     //Use a for loop to iterate from 0 to 10 . Within the loop, print the currentnumber to the console
+        
+        for(let i = 0; i <=10; i++) {
+            console.log("current number in loop:",i);
+        }
+     //calculate and print the first 5 multiples of 3
+        for (let i = 1; i <=5; i++) {
+       console.log(3 * i);
+        }
+
+     //Task 3: Discovering Functions
+
+     //Define a function named addNumbers
+        function addNumbers(num1, num2) {
+     //Return the sum of num1 and num2       
+            return num1+num2;
+        }
+
+        console.log("sum of 6 and 4 is:", addNumbers(6, 4)); //example call with 6 and 4 as arguments
+
+     //Part 2 : Define and call a function multiplyNumbers
+    function multiplyNumbers(num1, num2) {
+        //Return the product of num1 and num2
+        return num1*num2;
+    }
+        
+    console.log("product of 4 and 7 is:",multiplyNumbers(4, 7)); // example call with 4 and 7 as arguements
+    </script>
+</body>
+</html>
